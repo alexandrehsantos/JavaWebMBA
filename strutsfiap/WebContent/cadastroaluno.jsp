@@ -12,7 +12,7 @@
 		<s:textfield name="aluno.nome" label="Nome" />
 		<s:textfield name="aluno.dataNascimento" label="Data de Nasc." />
 		<s:textfield name="aluno.rg" label="Rg" />
-		<s:submit/>
+		<s:submit action="cadastrar"/>
 	</s:form>
 </body>
 </html>

@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<s:form action="/cadastrar" namespace="/pessoa" method="post" enctype="multipart/form-data">
+	<s:form action="/pessoa/cadastrar" namespace="/pessoa" method="post" enctype="multipart/form-data">
 		<s:textfield name="pessoa.nome" label="Nome" />
 		<s:textfield name="pessoa.dataNasc" label="Data de Nasc." />
 		<s:submit/>
